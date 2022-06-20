@@ -31,7 +31,7 @@ const int greenLED = 6;
 int notes[] = {1209, 1336, 1477, 1633}; // frequencies referenced from wikipedia link above
 int userInput [5] ;
 int password [5] = {2, 3, 4, 1};
-// TAKE NOTE: The number of 'beeps' correspond to the MATCHING user input and password,
+// TAKE NOTE: The number of 'beeps' correspond to the MISMATCHED user input and password,
 // Example... User input = 1, 2, 4, 3.... 
 // The number '4' here is at the same position as the password array number '4',
 // so the beep will happen only 3 times during "Access Denied" since the rest of the 
