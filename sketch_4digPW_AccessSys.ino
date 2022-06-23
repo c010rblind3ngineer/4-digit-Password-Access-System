@@ -1,24 +1,24 @@
 /* Arduino 4-digit password access system.
- * 
- * Components:
- *              - Arduino Uno
- *              - 4 x push button tactile switch
- *              - 4 x 1kOhm resistor
- *              - 3 x 220Ohm resistor
- *              - 10kOhm potentiometer
- *              - Passive buzzer
- *              - Red LED
- *              - Green LED
- *              - LCD
- *              - Some jumper wires
- *             
- * Libraries:
- *              - LiquidCrystal library
- *
- * Documentations: https://en.wikipedia.org/wiki/Telephone_keypad
- *              
- * Created on 19 June 2022 by arazak467
- */
+
+   Components:
+                - Arduino Uno
+                - 4 x push button tactile switch
+                - 4 x 1kOhm resistor
+                - 3 x 220Ohm resistor
+                - 10kOhm potentiometer
+                - Passive buzzer
+                - Red LED
+                - Green LED
+                - LCD
+                - Some jumper wires
+
+   Libraries:
+                - LiquidCrystal library
+
+   Documentations: https://en.wikipedia.org/wiki/Telephone_keypad
+
+   Created on 19 June 2022 by arazak467
+*/
 
 const int btn1 = A1;
 const int btn2 = A2;
