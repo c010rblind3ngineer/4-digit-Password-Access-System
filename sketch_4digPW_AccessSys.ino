@@ -2,9 +2,9 @@
 
    Components:
                 - Arduino Uno
-                - 4 x push button tactile switch
-                - 4 x 1kOhm resistor
-                - 3 x 220Ohm resistor
+                - Push button tactile switch (x 4)
+                - 1kOhm resistor (x 4)
+                - 220Ohm resistor (x 3)
                 - 10kOhm potentiometer
                 - Passive buzzer
                 - Red LED
